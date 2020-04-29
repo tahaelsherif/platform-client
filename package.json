@@ -95,7 +95,7 @@
   },
   "dependencies": {
     "@toast-ui/editor": "2.0.1",
-    "@uirouter/angularjs": "^1.0.10",
+    "@uirouter/angularjs": "^1.0.26",
     "URIjs": "^1.14.1",
     "angular": "^1.5.6",
     "angular-cache": "^4.6.0",
