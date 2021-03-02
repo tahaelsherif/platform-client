@@ -1,1 +1,2 @@
-https://github.com/robgraeber/heroku-buildpack-nodejs-gulp.git
+https://github.com/heroku/heroku-buildpack-nodejs
+https://github.com/rjmackay/heroku-buildpack-gulp
