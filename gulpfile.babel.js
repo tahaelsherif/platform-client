@@ -323,4 +323,4 @@ task('dev:verifier', series(startVerifier, devServer));
 // Run helper in console
 task('languages', downloadLanguages);
 
-task('heroku:production', serveStatic);
+task('heroku:production', series('dist'));
