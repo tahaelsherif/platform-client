@@ -134,6 +134,8 @@ function downloadLanguages(done) {
 task('dist', series(clean, distWebpack, distConfig, downloadLanguages, copyLanguages));
 task('build', series('dist'));
 
+task('heroku:production', serveStatic);
+
 /**
 * Task `tar` - Build tarball for release
 * Options
