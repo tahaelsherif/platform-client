@@ -134,7 +134,7 @@ function downloadLanguages(done) {
 task('dist', series(clean, distWebpack, distConfig, downloadLanguages, copyLanguages));
 task('build', series('dist'));
 
-task('heroku:production', serveStatic);
+
 
 /**
 * Task `tar` - Build tarball for release
@@ -149,6 +149,9 @@ task('release', series('dist', 'tar'));
 /**
 * Serve-options
 */
+
+
+
 
 // Starting the dev-server
 function devServer() {
@@ -319,3 +322,5 @@ task('dev:verifier', series(startVerifier, devServer));
 
 // Run helper in console
 task('languages', downloadLanguages);
+
+task('heroku:production', serveStatic);
