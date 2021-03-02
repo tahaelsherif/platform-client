@@ -133,7 +133,7 @@
     "webpack-hot-middleware": "^2.25.0"
   },
   "engines": {
-    "node": "14.16.0"
+    "node": ">=10.0"
   },
   "greenkeeper": {
     "ignore": [
