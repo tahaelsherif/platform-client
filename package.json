@@ -7,7 +7,7 @@
     "type": "git",
     "url": "https://github.com/ushahidi/platform-client.git"
   },
-  "author": "Ushahidi",
+  "author": "WFP",
   "license": "AGPL-3.0",
   "homepage": "https://github.com/ushahidi/platform-client",
   "scripts": {
@@ -22,9 +22,6 @@
     "eslintfix": "gulp eslintfix",
     "verify": "gulp verify",
     "languages": "gulp languages",
-      "heroku-prebuild": "echo This runs before Heroku installs dependencies.",
-      "heroku-postbuild": "echo This runs after Heroku installs dependencies, but before Heroku prunes and caches dependencies.",
-      "heroku-cleanup": "echo This runs after Heroku prunes and caches dependencies."
   },
   "pre-commit": [
     "eslint"
