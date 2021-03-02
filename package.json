@@ -21,7 +21,7 @@
     "eslint": "gulp eslint",
     "eslintfix": "gulp eslintfix",
     "verify": "gulp verify",
-    "languages": "gulp languages",
+    "languages": "gulp languages"
   },
   "pre-commit": [
     "eslint"
