@@ -61,8 +61,8 @@ module.exports = {
           // loader: 'url-loader?limit=10000'
           loader: 'file-loader',
           options: {
-            esModule: false,
-          },
+            esModule: false
+          }
         }
       },
       {
@@ -98,7 +98,7 @@ module.exports = {
     splitChunks: {
         chunks: 'all'
       }
-    },
+  },
   plugins: [
     new MiniCssExtractPlugin(
         {
